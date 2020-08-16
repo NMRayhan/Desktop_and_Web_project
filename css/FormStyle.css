@@ -1,0 +1,79 @@
+
+.formHead h2{
+    text-align: center;
+    padding: 20px;
+	display:block;
+	background-color:#c0c3c3;
+	color:black;
+	text-transform:uppercase;
+}
+
+#register
+{
+    background-color: #7E8F96;
+    width: 500px;
+    margin: 0 auto;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 10px;
+	box-shadow: 8px 10px 15px #899898;
+}
+#register{
+    margin-left: 100px;
+}
+label{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+}
+#name{
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0px;
+    padding: 7px;
+}
+#ph{
+    width: 65px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+#num{
+    width: 230px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+#sub{
+    width: 200px;
+    padding: 7px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-style: normal;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+
+.signUp_button, .reset_button{
+	float:none;
+	padding:10px 20px;
+	border:1px solid #fbfcfd;
+	border-radius:20px;
+	background-color:transparent;
+	color:white;
+	font-family:arial;
+}
+.signUp_button:hover, .reset_button:hover{
+	color:white;
+	border:none;
+	background:#064459;
+	border-radius:20px;
+	border-inline:none;
+	cursor:pointer;
+}
